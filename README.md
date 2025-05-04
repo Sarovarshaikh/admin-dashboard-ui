@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+1. Clone the Repository
+   Clone the front-end source code from GitHub:
+
+- git clone https://github.com/Sarovarshaikh/admin-dashboard-ui.git
+
+2. Install Dependencies
+
+   - cd admin-dashboard-ui
+   - npm install
+
+3. Start the Server
+
+- npm start
+  The server should run on: http://localhost:3001
+
+5. Open login page
+
+- first manually dant insert into database
+  {
+  "name": "sarovar",
+  "email": "sarovar@gmail.com",
+  "password": "sarovar123",
+  "role": "admin"
+  }
+- pass username and password
+  {
+  "email": "sarovar@gmail.com",
+  "password": "sarovar123",
+  }
+
+6. Performance CURD Operations
